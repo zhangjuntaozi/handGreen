@@ -1,0 +1,16 @@
+/*
+ * 变量定义
+ * */
+/*box sizing*/
+/*圆角*/
+/*渐变*/
+/*
+ * 阴影
+ * @shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
+  .box-shadow(@shadow);
+ */
+/*Placeholder text
+ *input{
+ *     .placeholder(red)
+ * }
+ * */

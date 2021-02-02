@@ -1,0 +1,187 @@
+/*
+ * 变量定义
+ * */
+/*box sizing*/
+/*圆角*/
+/*渐变*/
+/*
+ * 阴影
+ * @shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
+  .box-shadow(@shadow);
+ */
+/*Placeholder text
+ *input{
+ *     .placeholder(red)
+ * }
+ * */
+/*S 初始化*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+body {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+ol,
+ul,
+li,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  border: 0 none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  font-weight: normal;
+}
+.h1,
+h1 {
+  font-size: 24px;
+}
+.h2,
+h2 {
+  font-size: 22px;
+}
+.h3,
+h3 {
+  font-size: 20px;
+}
+.h4,
+h4 {
+  font-size: 18px;
+}
+.h5,
+h5 {
+  font-size: 16px;
+}
+.h6,
+h6 {
+  font-size: 14px;
+}
+/*a 链接初始化*/
+a {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*列表*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+em,
+i {
+  font-style: normal;
+}
+p {
+  margin: 0;
+  line-height: 1.6;
+}
+table {
+  border-collapse: collapse;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+/*图片置灰*/
+img.grayImg {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+/*表单*/
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+textarea[readonly] {
+  cursor: text;
+  background: #f0f0f0;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+/*文本控制*/
+div,
+span,
+a {
+  word-wrap: break-word;
+  word-break: normal;
+  word-break: break-all;
+}
+/*E 标签初始化*/
+/*S 自定义 class类 公共样式*/
+/*一行溢出隐藏*/
+.text_ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pointer {
+  cursor: pointer;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+.pull_left {
+  float: left !important;
+}
+.pull_right {
+  float: right !important;
+}
+/* E  自定义 class类 公共样式*/
+/*S 页面公共样式 */
+.container {
+  min-width: 1200px;
+}
+/*E 页面公共样式*/
